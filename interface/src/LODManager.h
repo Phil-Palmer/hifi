@@ -240,7 +240,7 @@ signals:
 private:
     LODManager();
 
-    bool _automaticLODAdjust = true;
+    bool _automaticLODAdjust = false;// PPTEST, WAS TRUE
 
     float _presentTime{ 0.0f }; // msec
     float _engineRunTime{ 0.0f }; // msec
